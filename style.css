@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Ropa+Sans&family=Sacramento&display=swap');
+
+.body {
+    background-image: linear-gradient(
+      256.36deg,
+      rgba(166, 61, 61, 0.9) 11%,
+      rgba(41, 41, 71, 0.827182) 56.44%,
+      rgba(12, 36, 73, 0.81) 70.87%,
+      rgba(12, 36, 73, 0.81) 38.35%
+    ),
+   url(https://imgur.com/00Ks0hm.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.assinatura {
+
+    display: flex;
+    color: white;
+    position: absolute;
+    align-items: baseline;
+    padding: 50px;
+
+}
+
+#by { position: absolute;
+    width: 17px;
+    height: 4px;
+    
+    font-family: 'Hurricane';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-30.5deg);
+
+}
+
+#anderson { position: absolute;
+    width: 300px;
+    height: 47px;
+    
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.menu {
+    padding: 48px;
+    padding-left: 800px;
+    font-family: 'Ropa Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-right: 10px;
+    
+}
+
+.apresentacao { 
+    position: absolute;
+    width: 600px;
+    height: 406px;
+    padding-top: 40px;
+    padding-left: 40px;
+    
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: justify;
+    text-indent: 1px;
+    
+    color: #FFFFFF; 
+
+}
+
+.FechamentoDoPortfolio {position: absolute;
+    width: 600px;
+    height: 406px;
+    padding-top: 700px;
+    padding-left: 40px;
+    
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: justify;
+    text-indent: 1px;
+    
+    color: #FFFFFF;}
